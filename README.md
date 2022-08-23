@@ -5,14 +5,15 @@
 
 
 ## Installation & Start
-[![asciicast](https://asciinema.org/a/eZTBzvVZ8IlzWuNUdbth3Oeuh.svg)](https://asciinema.org/a/eZTBzvVZ8IlzWuNUdbth3Oeuh)
+[![asciicast](https://asciinema.org/a/inIjqfsUdKfVnDdwWy0RjST70.svg)](https://asciinema.org/a/inIjqfsUdKfVnDdwWy0RjST70)
 
 
 ## Games
 ### 1. Brain-Even
-
 [![asciicast](https://asciinema.org/a/e3nt3qW03u3hbN6XfDuZAynmc.svg)](https://asciinema.org/a/e3nt3qW03u3hbN6XfDuZAynmc)
 
 ### 2. Brain-Calc
-
 [![asciicast](https://asciinema.org/a/tNkK6XFvqGmH2s0UCtkSLglIj.svg)](https://asciinema.org/a/tNkK6XFvqGmH2s0UCtkSLglIj)
+
+### 3. Brain-Gcd
+[![asciicast](https://asciinema.org/a/izPaRLMDgMAnUyoBf37jt8LnL.svg)](https://asciinema.org/a/izPaRLMDgMAnUyoBf37jt8LnL)
