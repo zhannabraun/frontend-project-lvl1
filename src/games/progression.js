@@ -2,7 +2,7 @@ import { getRandomNumber } from '../utilities.js';
 
 const brainProgression = () => {
   const firstProgressionNumber = getRandomNumber(2, 50);
-  const progressionDiff = getRandomNumber(3, 7);
+  const progressionDiff = getRandomNumber(3, 9);
   const indexOfHiddenElement = getRandomNumber(0, 9);
 
   const progression = [firstProgressionNumber];

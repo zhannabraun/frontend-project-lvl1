@@ -1,7 +1,7 @@
 import { getRandomNumber } from '../utilities.js';
 
 const brainEven = () => {
-  const number = getRandomNumber(1, 29);
+  const number = getRandomNumber(1, 100);
 
   const question = `${number}`;
 
