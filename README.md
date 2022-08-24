@@ -20,3 +20,6 @@
 
 ### 4. Brain-Progression
 [![asciicast](https://asciinema.org/a/516823.svg)](https://asciinema.org/a/516823)
+
+### 5. Brain-Prime
+[![asciicast](https://asciinema.org/a/516847.svg)](https://asciinema.org/a/516847)
