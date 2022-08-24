@@ -13,26 +13,26 @@ $ make install
 $ sudo npm link
 ```
 
-<a href="https://asciinema.org/a/516744" target="_blank"><img src="https://asciinema.org/a/516744.svg" width="500"/></a>
+<a href="https://asciinema.org/a/516744" target="_blank"><img src="https://asciinema.org/a/516744.svg" width="540"/></a>
 
 
 ## Games
-### 1. Brain-Even
-#### Is even number?
-<a href="https://asciinema.org/a/516612" target="_blank"><img src="https://asciinema.org/a/516612.svg" width="500"/></a>
+### `1. brain-even`
+### Is even number?
+<a href="https://asciinema.org/a/516612" target="_blank"><img src="https://asciinema.org/a/516612.svg" width="540"/></a>
 
-### 2. Brain-Calc
-#### Calculator
-<a href="https://asciinema.org/a/516628" target="_blank"><img src="https://asciinema.org/a/516628.svg" width="500"/></a>
+### `2. brain-calc`
+### Calculator
+<a href="https://asciinema.org/a/516628" target="_blank"><img src="https://asciinema.org/a/516628.svg" width="540"/></a>
 
-### 3. Brain-Gcd
-#### Greatest common divisor
-<a href="https://asciinema.org/a/516755" target="_blank"><img src="https://asciinema.org/a/516755.svg" width="500"/></a>
+### `3. brain-gcd`
+### Greatest common divisor
+<a href="https://asciinema.org/a/516755" target="_blank"><img src="https://asciinema.org/a/516755.svg" width="540"/></a>
 
-### 4. Brain-Progression
-#### Arithmetic progression
-<a href="https://asciinema.org/a/516823" target="_blank"><img src="https://asciinema.org/a/516823.svg" width="500"/></a>
+### `4. brain-progression`
+### Arithmetic progression
+<a href="https://asciinema.org/a/516823" target="_blank"><img src="https://asciinema.org/a/516823.svg" width="540"/></a>
 
-### 5. Brain-Prime
-#### Is prime number?
-<a href="https://asciinema.org/a/516847" target="_blank"><img src="https://asciinema.org/a/516847.svg" width="500"/></a>
+### `5. brain-prime`
+### Is prime number?
+<a href="https://asciinema.org/a/516847" target="_blank"><img src="https://asciinema.org/a/516847.svg" width="540"/></a>
