@@ -2,7 +2,6 @@
 
 [![Actions Status](https://github.com/zhannabraun/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/zhannabraun/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e6346893d8bff81d6094/maintainability)](https://codeclimate.com/github/zhannabraun/frontend-project-lvl1/maintainability)
-_ _ _
 
 'Brain Games' – five math games that you can play in the terminal.
 
@@ -14,26 +13,26 @@ $ make install
 $ sudo npm link
 ```
 
-[![asciicast](https://asciinema.org/a/inIjqfsUdKfVnDdwWy0RjST70.svg)](https://asciinema.org/a/inIjqfsUdKfVnDdwWy0RjST70)
-_ _ _
+<a href="https://asciinema.org/a/516744" target="_blank"><img src="https://asciinema.org/a/516744.svg" width="500"/></a>
+
 
 ## Games
 ### 1. Brain-Even
 #### Is even number?
-[![asciicast](https://asciinema.org/a/e3nt3qW03u3hbN6XfDuZAynmc.svg)](https://asciinema.org/a/e3nt3qW03u3hbN6XfDuZAynmc)
+<a href="https://asciinema.org/a/516612" target="_blank"><img src="https://asciinema.org/a/516612.svg" width="500"/></a>
 
 ### 2. Brain-Calc
 #### Calculator
-[![asciicast](https://asciinema.org/a/tNkK6XFvqGmH2s0UCtkSLglIj.svg)](https://asciinema.org/a/tNkK6XFvqGmH2s0UCtkSLglIj)
+<a href="https://asciinema.org/a/516628" target="_blank"><img src="https://asciinema.org/a/516628.svg" width="500"/></a>
 
 ### 3. Brain-Gcd
 #### Greatest common divisor
-[![asciicast](https://asciinema.org/a/izPaRLMDgMAnUyoBf37jt8LnL.svg)](https://asciinema.org/a/izPaRLMDgMAnUyoBf37jt8LnL)
+<a href="https://asciinema.org/a/516755" target="_blank"><img src="https://asciinema.org/a/516755.svg" width="500"/></a>
 
 ### 4. Brain-Progression
 #### Arithmetic progression
-[![asciicast](https://asciinema.org/a/516823.svg)](https://asciinema.org/a/516823)
+<a href="https://asciinema.org/a/516823" target="_blank"><img src="https://asciinema.org/a/516823.svg" width="500"/></a>
 
 ### 5. Brain-Prime
 #### Is prime number?
-[![asciicast](https://asciinema.org/a/516847.svg)](https://asciinema.org/a/516847)
+<a href="https://asciinema.org/a/516847" target="_blank"><img src="https://asciinema.org/a/516847.svg" width="500"/></a>
