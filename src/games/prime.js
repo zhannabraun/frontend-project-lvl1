@@ -1,24 +1,33 @@
+import playGame from '../index.js';
 import { getRandomNumber } from '../utilities.js';
 
 const brainPrime = () => {
-  const number = getRandomNumber(1, 100);
+  const dataRounds = [];
 
-  const question = `${number}`;
+  while (dataRounds.length < 3) {
+    const number = getRandomNumber(1, 100);
 
-  let correctAnswer = 'yes';
+    const question = `${number}`;
 
-  for (let i = 2; i <= number / 2;) {
-    if (number % i === 0) {
-      correctAnswer = 'no';
-      break;
-    } else {
-      i += 1;
+    let correctAnswer = 'yes';
+
+    for (let i = 2; i <= number / 2;) {
+      if (number % i === 0) {
+        correctAnswer = 'no';
+        break;
+      } else {
+        i += 1;
+      }
     }
+
+    dataRounds.push([question, correctAnswer]);
   }
 
   const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-  return [[question, correctAnswer], task];
+  const dataGame = [dataRounds, task].flat();
+
+  return playGame(dataGame);
 };
 
 export default brainPrime;
