@@ -31,8 +31,21 @@ export const getRandomNumber = (min, max) => {
   return Math.floor(num);
 };
 
-export const getRandomOperator = () => {
-  const operators = ['+', '-', '*'];
-  const index = Math.floor(Math.random() * 3);
-  return operators[index];
+export const calculate = (number1, number2, operator) => {
+  let result;
+
+  switch (operator) {
+    case '+':
+      result = (number1 + number2);
+      break;
+    case '-':
+      result = (number1 - number2);
+      break;
+    case '*':
+      result = (number1 * number2);
+      break;
+    default:
+  }
+
+  return result;
 };
