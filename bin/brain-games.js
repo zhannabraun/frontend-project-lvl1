@@ -2,4 +2,4 @@
 
 import showUserGreeting from '../src/cli.js';
 
-console.log(showUserGreeting());
+showUserGreeting();
