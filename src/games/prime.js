@@ -8,6 +8,10 @@ const getRoundData = () => {
 
   let correctAnswer = 'yes';
 
+  if (number === 1) {
+    correctAnswer = 'no';
+  }
+
   for (let i = 2; i <= number / 2; i += 1) {
     if (number % i === 0) {
       correctAnswer = 'no';
