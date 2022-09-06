@@ -1,12 +1,8 @@
 import playGame from '../index.js';
 import { getRandomNumber } from '../utilities.js';
 
-const getRoundData = () => {
-  const number1 = getRandomNumber(3, 50);
-  const number2 = getRandomNumber(3, 50);
-
-  const question = `${number1} ${number2}`;
-
+const getGcd = (number1, number2) => {
+  let result;
   let lessNumber;
 
   if (number1 < number2) {
@@ -15,20 +11,28 @@ const getRoundData = () => {
     lessNumber = number2;
   }
 
-  let correctAnswer;
-
   for (let i = lessNumber; i >= 1; i -= 1) {
     if (number1 % i === 0 && number2 % i === 0) {
-      correctAnswer = String(i);
+      result = String(i);
       break;
     }
   }
+
+  return result;
+};
+
+const getRoundData = () => {
+  const number1 = getRandomNumber(3, 50);
+  const number2 = getRandomNumber(3, 50);
+
+  const question = `${number1} ${number2}`;
+  const correctAnswer = getGcd(number1, number2);
 
   return [question, correctAnswer];
 };
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const brainGcd = () => playGame(getRoundData, description);
+const playBrainGcd = () => playGame(getRoundData, description);
 
-export default brainGcd;
+export default playBrainGcd;

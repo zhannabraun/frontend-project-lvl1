@@ -19,6 +19,6 @@ const getRoundData = () => {
 
 const description = 'What is the result of the expression?';
 
-const brainCalc = () => playGame(getRoundData, description);
+const playBrainCalc = () => playGame(getRoundData, description);
 
-export default brainCalc;
+export default playBrainCalc;
