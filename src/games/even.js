@@ -7,7 +7,7 @@ const getRoundData = () => {
   const number = getRandomNumber(1, 100);
 
   const question = `${number}`;
-  const correctAnswer = isEven(number) === true ? 'yes' : 'no';
+  const correctAnswer = isEven(number) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };
