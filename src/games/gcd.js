@@ -3,13 +3,7 @@ import getRandomNumber from '../utilities.js';
 
 const getGcd = (number1, number2) => {
   let result;
-  let lessNumber;
-
-  if (number1 < number2) {
-    lessNumber = number1;
-  } else {
-    lessNumber = number2;
-  }
+  const lessNumber = number1 < number2 ? number1 : number2;
 
   for (let i = lessNumber; i >= 1; i -= 1) {
     if (number1 % i === 0 && number2 % i === 0) {
