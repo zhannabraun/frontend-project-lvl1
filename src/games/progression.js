@@ -1,5 +1,5 @@
 import playGame from '../index.js';
-import { getRandomNumber } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
 
 const buildProgression = (firstProgressionNumber, progressionDiff) => {
   const progressionLength = 10;

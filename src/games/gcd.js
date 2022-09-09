@@ -1,5 +1,5 @@
 import playGame from '../index.js';
-import { getRandomNumber } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
 
 const getGcd = (number1, number2) => {
   let result;

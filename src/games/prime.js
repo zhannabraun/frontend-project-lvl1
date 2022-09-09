@@ -1,25 +1,25 @@
 import playGame from '../index.js';
-import { getRandomNumber } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
 
 const isPrime = (number) => {
   if (number === 1) {
-    return 'no';
+    return false;
   }
 
   for (let i = 2; i <= number / 2; i += 1) {
     if (number % i === 0) {
-      return 'no';
+      return false;
     }
   }
 
-  return 'yes';
+  return true;
 };
 
 const getRoundData = () => {
   const number = getRandomNumber(1, 100);
 
   const question = `${number}`;
-  const correctAnswer = isPrime(number);
+  const correctAnswer = isPrime(number) === true ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };

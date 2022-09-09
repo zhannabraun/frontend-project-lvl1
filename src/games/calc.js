@@ -1,12 +1,31 @@
 import playGame from '../index.js';
-import { getRandomNumber, calculate } from '../utilities.js';
+import getRandomNumber from '../utilities.js';
+
+const calculate = (number1, number2, operator) => {
+  let result;
+
+  switch (operator) {
+    case '+':
+      result = (number1 + number2);
+      break;
+    case '-':
+      result = (number1 - number2);
+      break;
+    case '*':
+      result = (number1 * number2);
+      break;
+    default:
+  }
+
+  return result;
+};
 
 const getRoundData = () => {
   const number1 = getRandomNumber(1, 29);
   const number2 = getRandomNumber(5, 19);
 
   const operators = ['+', '-', '*'];
-  const index = Math.floor(Math.random() * operators.length);
+  const index = getRandomNumber(0, operators.length - 1);
   const operator = operators[index];
 
   const question = `${number1} ${operator} ${number2}`;
