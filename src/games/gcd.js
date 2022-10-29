@@ -1,26 +1,14 @@
 import playGame from '../index.js';
 import getRandomNumber from '../utilities.js';
 
-const getGcd = (number1, number2) => {
-  let result;
-  const lessNumber = number1 < number2 ? number1 : number2;
-
-  for (let i = lessNumber; i >= 1; i -= 1) {
-    if (number1 % i === 0 && number2 % i === 0) {
-      result = String(i);
-      break;
-    }
-  }
-
-  return result;
-};
+const getGcd = (num1, num2) => ((num1 % num2) ? getGcd(num2, num1 % num2) : Math.abs(num2));
 
 const getRoundData = () => {
   const number1 = getRandomNumber(3, 50);
   const number2 = getRandomNumber(3, 50);
 
   const question = `${number1} ${number2}`;
-  const correctAnswer = getGcd(number1, number2);
+  const correctAnswer = String(getGcd(number1, number2));
 
   return [question, correctAnswer];
 };
